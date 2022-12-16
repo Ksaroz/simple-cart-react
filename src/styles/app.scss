@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto+Slab:wght@100;300;400;600;800&family=Roboto:wght@100&display=swap");
+
+@import "colors";
+@import "header";
+@import "home";
+@import "cart";
+@import "mediaQuery";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto Slab", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary;
+}

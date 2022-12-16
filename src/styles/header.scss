@@ -1,0 +1,47 @@
+@import "colors";
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $secondaryDark;
+  padding: 0 2rem;
+  height: 5rem;
+
+  h2 {
+    text-transform: uppercase;
+    color: $tertiary;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+
+    > a {
+      color: $primaryDark;
+      font-size: 1.2rem;
+      margin: 0 1rem;
+      transition: all 0.3s;
+      &:hover {
+        color: $primary;
+      }
+
+      > svg {
+        font-size: 2rem;
+      }
+
+      > p {
+        position: absolute;
+        background-color: $primaryDark;
+        color: $specialWhite;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        font: 800 0.8rem "Roboto Slab";
+        display: grid;
+        place-items: center;
+        transform: translate(120%, -250%);
+      }
+    }
+  }
+}

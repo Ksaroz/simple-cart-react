@@ -1,0 +1,12 @@
+@import "colors";
+
+//ipad screen
+@media screen and (max-width: 820px) {
+  .cart {
+    grid-template-columns: 1fr;
+  }
+}
+
+//phone screen
+@media screen and (max-width: 415px) {
+}
